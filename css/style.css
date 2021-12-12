@@ -9,9 +9,11 @@
     padding: 7px 0px;
     padding-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(78, 81, 83);
+    background-color: rgb(139, 245, 227);
     display: flex;
     flex-direction: row;
+    border: rgb(78, 81, 83);
+    border: 2px solid;
 }
 
 .header h1 {
@@ -19,13 +21,14 @@
     padding-right: 7px;
     margin-right: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(167, 232, 243);
-    color: rgb(78, 81, 83);
+
+    color: rgb(79, 82, 81);
     width: 350px;
-    text-align: right;
+    text-align: center;
     display: inline-block;
     font-size: 30px;
 }
+
 /* Styling the Unordered List */
 .header div {
     padding-top: 15px;
@@ -44,7 +47,7 @@
 
 /* Styling the List Item Links */
 a {
-    color: rgb(167, 232, 243);
+    color: rgb(79, 82, 81);
     text-decoration-line: underline;
     text-underline-offset: 3px;
     font-size: 20px;
@@ -65,21 +68,24 @@ section h1 {
     width: 1536px;
     height: 150px;
     display:flex; 
-    background-image: url("../assets/images/teal-background-1.jpg"); 
+    background-image: url("../assets/images/squares-teal.png"); 
 }
 /* Hero Style End */
 
 /* Subtitle Text */
 .subtitle {
-    color: red;
+    color: rgb(139, 245, 227);
     position: absolute;
-    right: 150px;
-    top: 150px;
-    background-color: rgb(167, 232, 243);
-    width: 400px;
-    height: 70px;
-    padding: 27px 20px;
+    right: 400px;
+    top: 100px;
+    background-color: rgb(79, 82, 81);
+    width: 740px;
+    height: 120px;
+    padding: 35px 20px;
     text-align: center;
+    border-radius: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 
 
