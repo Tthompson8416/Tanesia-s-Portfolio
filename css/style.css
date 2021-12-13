@@ -54,13 +54,14 @@ a {
 }
 
 section {
-    padding: 60px;
+    padding: 20px;
 }
 
 section h1 {
     width: 600px;
     height: 25px;
-    color:red;
+    color:rgb(139, 245, 227);
+    margin: px;
 }
 
 /* Hero Style Start */
@@ -89,18 +90,53 @@ section h1 {
 }
 
 .about-me {
-    background-color: blue;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 0px;
+}
+
+section h1 {
+    margin: 20px;
 }
 
 .work {
-    background-color: green;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.work a {
+    padding: 0px;
+    margin: 10px;
+    right: 30px;
 }
 
 .contact-me {
-    background-color: yellow;
+    background-color: whitesmoke; 
+    font-size: 20px;
+    border: 2px solid;
+}
+
+p {
+    font-size: 20px;
 }
 
 .resume {
-    background-color: purple;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding-bottom: 75px;
+}
+
+.resume a {
+    font-size: 25px;
+}
+
+.contact-me a {
+    line-height: 2.5;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
