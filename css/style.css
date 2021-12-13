@@ -66,12 +66,27 @@ section h1 {
 
 /* Hero Style Start */
 .hero {
+    background-image: url("../assets/images/squares-teal.png"); 
     width: 1536px;
     height: 150px;
     display:flex; 
-    background-image: url("../assets/images/squares-teal.png"); 
-   border: 2px solid;
+    border: 2px solid;
 
+}
+
+.background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 0px;
+}
+
+.profile-pic {
+position: absolute;
+  top: 85px;
+  left: 0px;
+  width: 170px;
+  height: 150px;
 }
 /* Hero Style End */
 
@@ -91,6 +106,7 @@ section h1 {
     font-size: 22px;
 }
 
+/* About Me Section */
 .about-me {
     background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -102,7 +118,7 @@ section h1 {
 section h1 {
     margin: 20px;
 }
-
+/* Examples of Work / Projects */
 .work {
     background-color: whitesmoke;
     font-size: 20px;
@@ -116,16 +132,24 @@ section h1 {
     right: 30px;
 }
 
+/* Contact Me Section */
 .contact-me {
     background-color: whitesmoke; 
     font-size: 20px;
     border: 2px solid;
 }
 
+.contact-me a {
+    line-height: 2.5;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 p {
     font-size: 20px;
 }
 
+/* Resume Section */
 .resume {
     background-color: whitesmoke;
     font-size: 20px;
@@ -135,12 +159,5 @@ p {
 
 .resume a {
     font-size: 25px;
-}
-
-.contact-me a {
-    line-height: 2.5;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
