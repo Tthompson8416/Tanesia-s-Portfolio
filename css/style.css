@@ -88,4 +88,19 @@ section h1 {
     font-size: 22px;
 }
 
+.about-me {
+    background-color: blue;
+}
+
+.work {
+    background-color: green;
+}
+
+.contact-me {
+    background-color: yellow;
+}
+
+.resume {
+    background-color: purple;
+}
 
