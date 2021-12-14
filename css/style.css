@@ -13,11 +13,11 @@
     display: flex;
     flex-direction: row;
     border: rgb(78, 81, 83);
-    border: 2px solid;
+    border: double;
 }
 
 .header h1 {
-    padding-top: 12px;
+    padding-top: 50px;
     padding-right: 7px;
     margin-right: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,17 +61,16 @@ section h1 {
     width: 600px;
     height: 25px;
     color:rgb(139, 245, 227);
-    margin: px;
+    margin: 0px;
 }
 
 /* Hero Style Start */
 .hero {
     background-image: url("../assets/images/squares-teal.png"); 
-    width: 1536px;
+    width: 1480px;
     height: 150px;
     display:flex; 
-    border: 2px solid;
-
+    border: double;
 }
 
 .background {
@@ -83,19 +82,19 @@ section h1 {
 
 .profile-pic {
 position: absolute;
-  top: 85px;
-  left: 0px;
-  width: 170px;
-  height: 150px;
+  top: 147px;
+  left: 22px;
+  width: 167px;
+  height: 146px;
 }
 /* Hero Style End */
 
 /* Subtitle Text */
 .subtitle {
     color: rgb(139, 245, 227);
-    position: absolute;
-    right: 400px;
-    top: 100px;
+    position: relative;
+    left: 400px;
+    top: 15px;
     background-color: rgb(79, 82, 81);
     width: 740px;
     height: 120px;
@@ -111,7 +110,7 @@ position: absolute;
     background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    border: 2px solid;
+    border: double;
     border-radius: 0px;
 }
 
@@ -123,20 +122,50 @@ section h1 {
     background-color: whitesmoke;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid;
+    border: double;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
 }
 
 .work a {
-    padding: 50px;
+    padding: 20px;
     margin: 5px;
     right: 30px;
+}
+
+div {
+    margin: 20px;
+}
+
+
+.img__description1 {
+    position:absolute;
+    color:rgb(139, 245, 227);
+    right: 1150px;
+    bottom: 210px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: overline;
+
+
+}
+
+.img__description2 {
+    position: absolute;
+    color: rgb(139, 245, 227);
+    left: 850px;
+    bottom: 210px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: overline;
 }
 
 /* Contact Me Section */
 .contact-me {
     background-color: whitesmoke; 
     font-size: 20px;
-    border: 2px solid;
+    border: double;
 }
 
 .contact-me a {
@@ -145,8 +174,9 @@ section h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Resume Section */
@@ -154,10 +184,27 @@ p {
     background-color: whitesmoke;
     font-size: 20px;
     padding-bottom: 75px;
-    border: 2px solid;
+    border: double;
 }
 
 .resume a {
     font-size: 25px;
 }
 
+/* Footer */
+.footer {
+    padding: 7px 0px;
+    margin-bottom: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(139, 245, 227);
+    display: flex;
+    flex-direction: row;
+    border: rgb(78, 81, 83);
+    border: double;
+}
+
+.footer h1 {
+    padding: 5px;
+    padding-left: 550px;
+    font-size: 25px;
+}
