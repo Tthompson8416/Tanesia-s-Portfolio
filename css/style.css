@@ -161,6 +161,16 @@ div {
     text-decoration: overline;
 }
 
+.img__description3 {
+    position: absolute;
+    color: rgb(139, 245, 227);
+    left: 850px;
+    bottom: 190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: overline;
+}
+
 /* Contact Me Section */
 .contact-me {
     background-color: whitesmoke; 
