@@ -14,6 +14,7 @@
     flex-direction: row;
     border: rgb(78, 81, 83);
     border: double;
+    background-color: black;
 }
 
 .header h1 {
@@ -32,26 +33,40 @@
 /* Styling the Unordered List */
 .header div {
     padding-top: 15px;
-    padding-left: 600px;
+    padding-left: 1000px;
     margin-right: 5px;
-    float: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
     margin-bottom: 10px;
+}
+
+.header h1 {
+    color: white;
 }
 
 /* Styling the List Item Links */
 a {
-    color: rgb(79, 82, 81);
-    text-decoration-line: underline;
-    text-underline-offset: 3px;
-    font-size: 20px;
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+    
 }
+
+a:hover {
+    color: rgb(46, 202, 202);
+}
+
+.resume-nav {
+    color: rgb(46, 202, 202);
+border: 2px solid rgb(46, 202, 202);
+padding: 10px;
+border-radius: 5px;
+}
+
 
 section {
     padding: 20px;
@@ -66,11 +81,10 @@ section h1 {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../assets/images/squares-teal.png"); 
-    width: 1480px;
+    background-color: black;
+    width: 1600px;
     height: 150px;
     display:flex; 
-    border: double;
 }
 
 .background {
@@ -91,18 +105,20 @@ position: absolute;
 
 /* Subtitle Text */
 .subtitle {
-    color: rgb(139, 245, 227);
+    color: white;
     position: relative;
     left: 400px;
     top: 15px;
-    background-color: rgb(79, 82, 81);
     width: 740px;
     height: 120px;
     padding: 35px 20px;
     text-align: center;
-    border-radius: 50%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 72px;
+}
+
+.hero span {
+    color: rgb(46, 202, 202);
 }
 
 /* About Me Section */
@@ -110,8 +126,9 @@ position: absolute;
     background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    border: double;
-    border-radius: 0px;
+    background-color: black;
+    color: rgb(46, 202, 202);
+ 
 }
 
 section h1 {
