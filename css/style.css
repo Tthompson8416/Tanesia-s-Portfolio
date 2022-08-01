@@ -15,24 +15,24 @@
 }
 
 /* Styling the Unordered List */
-.header div {
-    padding-top: 15px;
-    padding-left: 1000px;
-    margin-right: 5px;
+.header ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
 }
 
 .header div ul li {
     display: inline-block;
     margin-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 10px;
+
+
 }
 
 /* Styling the list item links */
 a {
     color: whitesmoke;
-    font-size: 15px;
     margin-left: 25px;   
+    font-size: 18px;
 }
 
 a:hover {
@@ -44,7 +44,7 @@ a:hover {
     color: rgb(46, 202, 202);
     border: 2px solid rgb(46, 202, 202);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .resume-nav:hover {
@@ -54,6 +54,16 @@ a:hover {
 /* Styling the header h1 */
 .name h1 {
     color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(40px, 8vw, 80px) ;
+    box-sizing: inherit;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+
+.hero {
+    margin-bottom: 150px;
 }
 
 section {
@@ -64,10 +74,10 @@ section h1 {
     width: 600px;
     height: 25px;
     color:red;
-    margin: 0px;
+
 }
 
-.work p {
+.portfolio p {
     color: whitesmoke;
 }
 
@@ -119,12 +129,12 @@ section h1 {
 }
 
 /* Contact Me Section */
-.contact-me {
+.contact {
     font-size: 20px;
     color: whitesmoke;
 }
 
-.contact-me a {
+.contact a {
     line-height: 2.5;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -188,6 +198,6 @@ p {
   flex-wrap: wrap;
 }
 
-.work h1 {
+.portfolio h1 {
   width: fit-content;
 }
