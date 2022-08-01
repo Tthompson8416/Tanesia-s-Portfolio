@@ -61,9 +61,8 @@ a:hover {
     line-height: 1.1;
 }
 
-
-.hero {
-    margin-bottom: 150px;
+body {
+    background-color: black;
 }
 
 section {
@@ -88,6 +87,7 @@ section h1 {
     display:flex; 
     justify-content: flex-start;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 150px;
 }
 
 .background {
@@ -120,8 +120,7 @@ section h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     background-color: black;
-    color: rgb(46, 202, 202);
- 
+    color: rgb(46, 202, 202); 
 }
 
 section h1 {
@@ -201,3 +200,4 @@ p {
 .portfolio h1 {
   width: fit-content;
 }
+
