@@ -1,3 +1,4 @@
+/* Universal styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,18 +12,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: end;
-}
-
-
-/* .header h1 {
-    padding-top: 50px;
-    padding-right: 7px;
-    margin-right: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 350px;
-    text-align: center;
-    display: inline-block;
-    font-size: 30px;
 }
 
 /* Styling the Unordered List */
@@ -39,23 +28,18 @@
     margin-bottom: 10px;
 }
 
-.header h1 {
-    color: white;
-}
-
-/* Styling the List Item Links */
+/* Styling the list item links */
 a {
-    color: white;
+    color: whitesmoke;
     font-size: 15px;
-    margin-left: 25px;
-    
+    margin-left: 25px;   
 }
 
 a:hover {
     color: rgb(46, 202, 202);
 }
 
-
+/* Styling resume anchor link in nav */
 .resume-nav {
     color: rgb(46, 202, 202);
     border: 2px solid rgb(46, 202, 202);
@@ -65,7 +49,11 @@ a:hover {
 
 .resume-nav:hover {
     color: white;
+}
 
+/* Styling the header h1 */
+.name h1 {
+    color: whitesmoke;
 }
 
 section {
@@ -75,12 +63,12 @@ section {
 section h1 {
     width: 600px;
     height: 25px;
-    color:rgb(139, 245, 227);
+    color:red;
     margin: 0px;
 }
 
 .work p {
-    color: red;
+    color: whitesmoke;
 }
 
 /* Hero Style Start */
@@ -129,64 +117,11 @@ section h1 {
 section h1 {
     margin: 20px;
 }
-/* Examples of Work / Projects */
-/*.work {
-    background-color: whitesmoke;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: double;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 100px;
-}
-
-.work a {
-    padding: 20px;
-    margin: 5px;
-    right: 30px;
-}
-
-div {
-    margin: 20px;
-}
-
-
-.img__description1 {
-    position:absolute;
-    color:rgb(139, 245, 227);
-    right: 1150px;
-    bottom: 190px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-decoration: overline;
-
-
-}
-
-.img__description2 {
-    position: absolute;
-    color: rgb(139, 245, 227);
-    left: 850px;
-    bottom: 190px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-decoration: overline;
-}
-
-.img__description3 {
-    position: absolute;
-    color: rgb(139, 245, 227);
-    left: 850px;
-    bottom: 190px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-decoration: overline;
-}
 
 /* Contact Me Section */
 .contact-me {
     font-size: 20px;
-    color: red;
+    color: whitesmoke;
 }
 
 .contact-me a {
@@ -227,7 +162,7 @@ p {
     padding: 5px;
     padding-left: 50px;
     font-size: 25px;
-    color: red;
+    color: whitesmoke;
 }
 
 .img__wrap,
