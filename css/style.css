@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 /* Styling the Header */
@@ -10,16 +11,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: end;
-    background-color: black;
 }
 
-.header h1 {
+
+/* .header h1 {
     padding-top: 50px;
     padding-right: 7px;
     margin-right: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-    color: green;
     width: 350px;
     text-align: center;
     display: inline-block;
@@ -66,10 +65,8 @@ a:hover {
 
 .resume-nav:hover {
     color: white;
-    background-color: rgb(46, 202, 202)
 
 }
-
 
 section {
     padding: 20px;
@@ -82,9 +79,12 @@ section h1 {
     margin: 0px;
 }
 
+.work p {
+    color: red;
+}
+
 /* Hero Style Start */
 .hero {
-    background-color: black;
     width: 100vw;
     height: 150px;
     display:flex; 
@@ -119,7 +119,6 @@ section h1 {
 
 /* About Me Section */
 .about-me {
-    background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     background-color: black;
@@ -186,9 +185,8 @@ div {
 
 /* Contact Me Section */
 .contact-me {
-    background-color: whitesmoke; 
     font-size: 20px;
-    border: double;
+    color: red;
 }
 
 .contact-me a {
@@ -204,7 +202,7 @@ p {
 
 /* Resume Section */
 .resume {
-    background-color: whitesmoke;
+    background-color: black;
     font-size: 20px;
     padding-bottom: 75px;
     border: double;
@@ -219,7 +217,6 @@ p {
     padding: 7px 0px;
     margin-bottom: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(139, 245, 227);
     display: flex;
     flex-direction: row;
     border: rgb(78, 81, 83);
@@ -230,6 +227,7 @@ p {
     padding: 5px;
     padding-left: 50px;
     font-size: 25px;
+    color: red;
 }
 
 .img__wrap,
