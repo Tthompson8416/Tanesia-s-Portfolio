@@ -1,213 +1,221 @@
 :root {
-    --main-bg-color: #28282b 
+  --main-bg-color: #28282b;
 }
 
 /* Variables */
-    * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        background-color: var(--main-bg-color);
-    }
-    
-    /* Styling the Header */
-    .header {
-        padding: 7px 35px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        display: flex;
-        justify-content: end;
-    }
-    
-    /* Styling the Unordered List */
-    .header ul {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    .header div ul li {
-        display: inline-block;
-        margin-bottom: 10px;
-        padding-top: 25px;
-        padding-left: 10px;
-    
-    
-    }
-    
-    /* Styling the list item links */
-    a {
-        color: whitesmoke;
-        margin-left: 25px;   
-        font-size: 18px;
-    }
-    
-    a:hover {
-        color: rgb(46, 202, 202);
-    }
-    
-    /* Styling resume anchor link in nav */
-    .resume-nav {
-        color: rgb(46, 202, 202);
-        border: 2px solid rgb(46, 202, 202);
-        padding: 10px;
-        border-radius: 4px;
-    }
-    
-    .resume-nav:hover {
-        color: white;
-    }
-    
-    /* Styling the header h1 */
-    .name h1 {
-        color: rgb(168, 178, 209);
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: clamp(40px, 8vw, 80px) ;
-        box-sizing: inherit;
-        font-weight: 600;
-        line-height: 1.1;
-    }
-    
-    body {
-        background-color: var(--main-bg-color);
-    }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: var(--main-bg-color);
+}
 
-    .background {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 0px;
-    }
-    
-    
-    section {
-        padding: 20px;
-    }
-    
-    section h1 {
-        width: 600px;
-        height: 25px;
-        color:red;
-    
-    }
-    
-    .portfolio p {
-        color: whitesmoke;
-    }
-    
-    /* Hero Style Start */
-    .hero {
-        width: 100vw;
-        height: 150px;
-        display:flex; 
-        justify-content: flex-start;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-bottom: 150px;
-    }
+/* Styling the Header */
+.header {
+  padding: 7px 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: end;
+}
 
-    .hero span {
-        color: rgb(46, 202, 202);
-    }
+/* Styling the Unordered List */
+.header ul {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-    .name h1 {
-        display: inline;
-        color: rgb(168, 178, 209);
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 80px;
-        font-weight: 650;
-        line-height: 1.1;
-    }
-    
-    
-    /* Subtitle Text */
-    .subtitle {
-        color: white;
-        position: relative;
-        left: 400px;
-        top: 15px;
-        width: 740px;
-        height: 120px;
-        padding: 35px 20px;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 72px;
-    
-    /* About Me Section */
-    .about-me {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-        background-color: var(--main-bg-color);
-        color: rgb(46, 202, 202); 
-    }
-    
-    section h1 {
-        margin: 20px;
-    }
-    
-    /* Contact Me Section */
-    .contact {
-        font-size: 20px;
-        color: whitesmoke;
-    }
-    
-    .contact a {
-        line-height: 2.5;
-        font-size: 25px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    
-    p {
-        font-size: 25px;
-    }
-    
-    /* Resume Section */
-    .resume {
-        background-color: var(--main-bg-color);
-        font-size: 20px;
-        padding-bottom: 75px;
-    }
-    
-    .resume a {
-        font-size: 25px;
-    }
-    
-    /* Footer */
-    .footer {
-        padding: 7px 0px;
-        margin-bottom: 80px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .footer h1 {
-        padding: 5px;
-        padding-left: 50px;
-        font-size: 25px;
-        color: whitesmoke;
-    }
-    
-    .img__wrap,
-    .img__wrap2,
-    .img__wrap3 {
-      height: fit-content;
-      display: flex;
-      text-align: center;
-      flex-direction: column;
-      align-items: center;
-      align-content: center;
-    }
-    
-    .img-area img {
-      width: 500px;
-      height: 300px;
-    }
-    
-    .img-area {
-      justify-content: center;
-      display: flex;
-      margin: 0 auto;
-      flex-wrap: wrap;
-    }
-    
-    .portfolio h1 {
-      width: fit-content;
-    }
+.header div ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+/* Styling the list item links */
+a {
+  color: whitesmoke;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+a:hover {
+  color: rgb(46, 202, 202);
+}
+
+/* Styling resume anchor link in nav */
+.resume-nav {
+  color: rgb(46, 202, 202);
+  border: 2px solid rgb(46, 202, 202);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.resume-nav:hover {
+  color: white;
+}
+
+/* Hero Style Start */
+.hero {
+  width: 100vw;
+  height: 150px;
+  display: inline;
+  justify-content: flex-start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 150px;
+}
+
+.hero span {
+  color: rgb(46, 202, 202);
+}
+
+.name {
+    display: block;
+    justify-content: center;
+}
+
+/* Styling the header h1 */
+.name h1 {
+  display: inline;
+  color: rgb(168, 178, 209);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 1.1;
+  box-sizing: inherit;
+  margin-bottom: 150px;
+  margin-left: 200px;
+
+}
+
+.name h2 {
+  color: rgb(168, 178, 209);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 220px;
+}
+
+.objective p {
+    color: green;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 0px;
+}
+
+section {
+  padding: 20px;
+}
+
+section h1 {
+  width: 600px;
+  height: 25px;
+  color: red;
+}
+
+.portfolio p {
+  color: whitesmoke;
+}
+
+/* Subtitle Text */
+.subtitle {
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 15px;
+  width: 740px;
+  height: 120px;
+  padding: 35px 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 72px;
+}
+
+/* About Me Section */
+.about-me {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: var(--main-bg-color);
+  color: rgb(46, 202, 202);
+}
+
+section h1 {
+  margin: 20px;
+}
+
+/* Contact Me Section */
+.contact {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.contact a {
+  line-height: 2.5;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 25px;
+}
+
+/* Resume Section */
+.resume {
+  background-color: var(--main-bg-color);
+  font-size: 20px;
+  padding-bottom: 75px;
+}
+
+.resume a {
+  font-size: 25px;
+}
+
+/* Footer */
+.footer {
+  padding: 7px 0px;
+  margin-bottom: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer h1 {
+  padding: 5px;
+  padding-left: 50px;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.img__wrap,
+.img__wrap2,
+.img__wrap3 {
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.img-area img {
+  width: 500px;
+  height: 300px;
+}
+
+.img-area {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.portfolio h1 {
+  width: fit-content;
+}
