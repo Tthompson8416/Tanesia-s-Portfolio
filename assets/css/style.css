@@ -13,14 +13,13 @@
 /* Styling the Header */
 .header {
   padding: 7px 35px;
-  font-family:  "Titillium Web";
-  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   justify-content: end;
 }
 
 /* Styling the Unordered List */
 .header ul {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header div ul li {
@@ -33,7 +32,7 @@
 /* Styling the list item links */
 a {
   color: whitesmoke;
-  margin-left: 25px;
+  margin-left: 65px;
   font-size: 18px;
 }
 
@@ -59,7 +58,7 @@ a:hover {
   height: 150px;
   display: inline;
   justify-content: flex-start;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 150px;
 }
 
