@@ -13,7 +13,7 @@
 /* Styling the Header */
 .header {
   padding: 7px 35px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  "Titillium Web";
   display: flex;
   justify-content: end;
 }
@@ -219,3 +219,5 @@ p {
 .portfolio h1 {
   width: fit-content;
 }
+
+
