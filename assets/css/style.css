@@ -14,11 +14,12 @@
 .header {
   padding: 7px 35px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  justify-content: end;
 }
 
 /* Styling the Unordered List */
 .header ul {
+  display: flex;
+  justify-content: flex-end;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
