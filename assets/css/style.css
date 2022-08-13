@@ -1,5 +1,7 @@
 :root {
   --main-bg-color: #28282b;
+  --main-font-color: rgb(168, 178, 209);
+  --hl-link-color: rgb(46, 202, 202);
   --font-robo:'Montserrat', sans-serif;
   --font-title: 'Julius Sans One', sans-serif;
 }
@@ -42,12 +44,12 @@ a {
 }
 
 a:hover {
-  color: rgb(46, 202, 202);
+  color: var(--hl-link-color);
 }
 
 /* Styling resume anchor link in nav */
 .resume-nav {
-  color: rgb(46, 202, 202);
+  color: var(--hl-link-color);
   border: 2px solid rgb(46, 202, 202);
   padding: 10px;
   border-radius: 4px;
@@ -64,43 +66,57 @@ a:hover {
   display: inline;
   justify-content: flex-start;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 150px;
 }
 
 .hero span {
   color: rgb(46, 202, 202);
+  font-size: 150px;
 }
 
 .name {
     display: block;
     justify-content: center;
-    margin-top: 160px;
+    margin-top: 100px;
     margin-left: 240px;
 }
 
 /* Styling the header h1 */
 .name h1 {
   display: inline;
-  color: rgb(168, 178, 209);
+  color: whitesmoke;
   font-family: var(--font-title);
   font-size: 70px;
-  line-height: 1.1;
+  line-height: 1.2;
   box-sizing: inherit;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
   margin-left: 200px;
 
 }
 
 .name h2 {
-  color: rgb(168, 178, 209);
+  color: var(--main-font-color);
   font-family: var(--font-title);
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   margin-left: 220px;
 }
 
 .objective p {
-    color: green;
+  color: var(--main-font-color);
+  margin: 5px 750px 30px 463px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.check-out p {
+  color: var(--hl-link-color);
+  font-family: var(--font-robo);
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid rgb(46, 202, 202);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 1150px 30px 463px;
 }
 
 body {
@@ -146,11 +162,10 @@ section h1 {
 /* About Me Section */
 .about-me {
   font-family: var(--font-robo);
-  font-size: 20px;
+  font-size: 10px;
   background-color: var(--main-bg-color);
   color: rgb(46, 202, 202);
-  margin-left: 430px;
-  margin-right: 430px;
+  margin: 200px 450px;
 }
 
 section h1 {
