@@ -288,26 +288,43 @@ h3:after {
 
 .img__wrap {
   margin-left: 900px;
+  position: relative;
 }
 
 .img__wrap h4 {
   color: var(--secondary-font-color);
-  font-family: var(--font-robo);
-  font-size: 25px;
+  font-family: var(--font-title);
+  font-size: 30px;
+  position: absolute;
+  margin-right: 1655px;
+  margin-top: 50px;
+  width: 60%;
+}
+
+.project-title {
+  font-family: var(--font-title);
+  color: var(--secondary-font-color);
+  font-size: 30px;
 }
 
 .project-description {
   box-shadow: 0 10px 30px -15px yellow;
   transition: none;
-  position: relative;
+  position: absolute;
   padding: 25px;
   border-radius: 5px;
-  background-color: var(--main-bg-color);
+  background-color: blue;
+  margin-right: 1100px;
+  margin-top: 110px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-description p {
   color: var(--main-font-color);
   font-size: 20px;
+  background-color: blue;
 }
 
 .img__wrap2 {
