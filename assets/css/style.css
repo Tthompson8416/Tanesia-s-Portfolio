@@ -200,7 +200,7 @@ section {
 
 /* Styling the section headers */
 section h3 {
-  width: 600px;
+  width: 650px;
   height: 50px;
   color: var(--secondary-font-color);
   font-family: var(--font-title);
@@ -220,7 +220,7 @@ h3:after {
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 20%;
+  width: 25%;
 }
 
 h3:before {
@@ -236,17 +236,26 @@ h3:after {
 /* About Me Section */
 .about-me {
   color: var(--main-font-color);
-  margin: 200px 450px;
+  margin: 200px 200px;
+  padding-left: 50px;
   font-family: var(--main-font);
+
+}
+
+#about-me {
+  margin-left: 700px;
 }
 
 .about-me p {
   padding-top: 50px;
+  font-size: 22px;
+  margin-right: 100px;
+  padding-left: 60px;
 }
 
 /* Portfolio Section */
 .portfolio {
-  margin: 200px 450px;
+  margin: 200px 450px 200px 200px;
 
 }
 
