@@ -3,6 +3,7 @@
   --main-font-color: rgb(168, 178, 209);
   --secondary-font-color: whitesmoke; 
   --hl-link-color: rgb(46, 202, 202);
+  --main-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   --font-robo:'Montserrat', sans-serif;
   --font-title: 'Julius Sans One', sans-serif;
 }
@@ -109,7 +110,7 @@
 .objective p {
   color: var(--main-font-color);
   margin: 5px 750px 30px 463px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: var(--main-font);
   font-size: 20px;
 }
 
@@ -197,11 +198,56 @@ section {
   padding: 20px;
 }
 
-section h1 {
+/* Styling the section headers */
+section h3 {
   width: 600px;
-  height: 25px;
-  color: yellow;
+  height: 50px;
+  color: var(--secondary-font-color);
   font-family: var(--font-title);
+  font-weight: 600;
+}
+
+h3 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h3:before,
+h3:after {
+  background-color: var(--hl-link-color);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* About Me Section */
+.about-me {
+  color: var(--main-font-color);
+  margin: 200px 450px;
+  font-family: var(--main-font);
+}
+
+.about-me p {
+  padding-top: 50px;
+}
+
+/* Portfolio Section */
+.portfolio {
+  margin: 200px 450px;
+
 }
 
 .portfolio p {
@@ -222,18 +268,6 @@ section h1 {
   font-size: 72px;
 }
 
-/* About Me Section */
-.about-me {
-  font-family: var(--font-robo);
-  font-size: 10px;
-  background-color: var(--main-bg-color);
-  color: rgb(46, 202, 202);
-  margin: 200px 450px;
-}
-
-section h1 {
-  margin: 20px;
-}
 
 /* Contact Me Section */
 .contact {
