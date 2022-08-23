@@ -305,6 +305,13 @@ h3:after {
   width: 45%;
 }
 
+.img__wrap2 h4 {
+  margin-left: 1000px;
+  margin-top: 50px;
+  margin-left: 1600px;
+  margin-top: 90px;
+ }
+
 .img__wrap3 {
   margin-top: 70px;
   position: relative;
@@ -336,6 +343,7 @@ h3:after {
   position: absolute;
   width: 60%;
   margin-right: 3550px;
+  margin-top: 120px;
  }
 
  .project-title-3 {
@@ -345,7 +353,7 @@ h3:after {
   position: absolute;
   width: 60%;
   margin-left: 1000px;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-left: 1875px;
  }
 
@@ -356,6 +364,7 @@ h3:after {
   position: absolute;
   width: 60%;
   margin-right: 1950px;
+  margin-top: 120px;
  }
 
 .project-description {
@@ -500,11 +509,7 @@ p {
   color: var(--secondary-font-color);
 }
 
-.img__wrap2 h4 {
-  margin-left: 1000px;
-  margin-top: 50px;
-  margin-left: 1600px;
- }
+
  
 
 
