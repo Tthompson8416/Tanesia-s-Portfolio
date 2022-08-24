@@ -53,18 +53,15 @@
 
 /* Styling resume anchor link in nav */
 
-#resume {
-  color: var(--hl-link-color);
-}
-
-#resume:hover {
-  background-color: rgba(46, 202, 202, .1);
-}
-
 .resume-nav {
   border: 2px solid rgb(46, 202, 202);
   padding: 10px;
   border-radius: 4px;
+  color: var(--hl-link-color);
+}
+
+.resume-nav:hover {
+  background-color: rgba(46, 202, 202, .1);
 }
 
 /* Hero Style Start */
