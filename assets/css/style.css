@@ -470,16 +470,21 @@ h3:after {
 .contact {
   font-size: 20px;
   color: var(--secondary-font-color);
+  margin-left: 890px;
+
 }
 
 .contact a {
-  line-height: 2.5;
+  line-height: 3;
   font-size: 25px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: var(--font-robo);
+  margin-left: 100px;
 }
 
 p {
   font-size: 25px;
+  font-family: var(--font-robo);
+  margin-left: 100px;
 }
 
 /* Resume Section */
@@ -487,10 +492,14 @@ p {
   background-color: var(--main-bg-color);
   font-size: 20px;
   padding-bottom: 75px;
+  margin-left: 890px;
+  margin-top: 50px;
 }
 
 .resume a {
   font-size: 25px;
+  margin-left: 100px;
+  font-family: var(--font-robo);
 }
 
 /* Footer */
