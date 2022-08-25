@@ -295,8 +295,16 @@ h3:after {
   width: 45%;
 }
 
-.img__wrap a:hover {
-background: url("/assets/images/run\ buddy\ tinted\ image.jpg") no-repeat;
+.img-tint-1 {
+  width: 550px;
+  height: 375px;
+  background: url("../images/run\ buddy\ tinted\ image.jpg");
+  background-size: cover;
+}
+
+.img-tint-1:hover {
+background: url("../images/hero-bg.jpg");
+background-size: cover;
 }
 
 .img__wrap2 {
@@ -305,6 +313,18 @@ background: url("/assets/images/run\ buddy\ tinted\ image.jpg") no-repeat;
   margin-left: 865px;
   width: 45%;
 }
+
+.img-tint-2 {
+  width: 550px;
+  height: 375px;
+  background: url("../images/Horiseon-tinted-image.jpg");
+  background-size: cover;
+}
+
+.img-tint-2:hover {
+  background: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  }
 
 .img__wrap2 h4 {
   margin-left: 1000px;
@@ -319,12 +339,37 @@ background: url("/assets/images/run\ buddy\ tinted\ image.jpg") no-repeat;
   width: 45%;
 }
 
+.img-tint-3 {
+  width: 550px;
+  height: 375px;
+  background: url("../images/Fridge-to-feast-tinted-image.png");
+  background-size: cover;
+}
+
+.img-tint-3:hover {
+  background: url("../images/Fridge-to-Feast-Pic.png");
+  background-size: cover;
+  }
+
 .img__wrap4 {
   margin-top: 70px;
   position: relative;
   margin-left: 865px;
   width: 45%;
 }
+
+.img-tint-4 {
+  width: 550px;
+  height: 375px;
+  background: url("../images/Sk8Spotter!-tinted-image.png");
+  background-size: cover;
+}
+
+.img-tint-4:hover {
+  background: url("../images/Sk8Spotter!.png");
+  background-size: cover;
+  }
+
 
 .project-title {
   font-family: var(--font-title);
