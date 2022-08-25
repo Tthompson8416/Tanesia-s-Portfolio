@@ -295,6 +295,10 @@ h3:after {
   width: 45%;
 }
 
+.img__wrap a:hover {
+background: url("/assets/images/run\ buddy\ tinted\ image.jpg") no-repeat;
+}
+
 .img__wrap2 {
   margin-top: 70px;
   position: relative;
