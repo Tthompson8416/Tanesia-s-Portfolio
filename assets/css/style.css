@@ -113,7 +113,7 @@
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
   background-color: var(--main-bg-color);
   font-family: var(--font-robo);
   font-size: 18px;
