@@ -1,3 +1,11 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 1200px;
+}
+
 :root {
   --main-bg-color: #28282b;
   --main-font-color: rgb(168, 178, 209);
@@ -20,6 +28,7 @@
 /* Styling the Header */
 .header {
   padding: 7px 35px;
+  display: inline;
 }
 
 /* Styling the Unordered List */
@@ -28,7 +37,10 @@
   justify-content: flex-end;
   font-family: var(--font-robo);
   margin-top: 20px;
+  margin-left: 1800px;
+  width: max-content;
 }
+  
 
 .header div ul li {
   display: inline-block;
@@ -80,8 +92,9 @@
 .name {
     display: block;
     justify-content: center;
-    margin-left: 240px;
+    margin-left: 500px;
     margin-top: 100px;
+    width: 1200px;
 }
 
 /* Styling the header h1 */
@@ -564,6 +577,7 @@ p {
   color: var(--secondary-font-color);
 }
 
+/* Media Query for mobile phones */
 
  
 
