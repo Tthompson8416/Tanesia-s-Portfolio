@@ -118,11 +118,16 @@ body {
   margin-left: 220px;
 }
 
+.objective {
+  width: 800px;
+}
+
 .objective p {
   color: var(--main-font-color);
-  margin: 5px 750px 30px 463px;
+  margin: 5px 750px 30px 700px;
   font-family: var(--main-font);
   font-size: 20px;
+  width: 800px;
 }
 
 .btn {
@@ -181,7 +186,7 @@ color: var(--hl-link-color);
   color: var(--secondary-font-color);
   height: 120px; 
   margin-left: 65px;
-  margin-top: 225px;
+  margin-top: 270px;
   position: fixed;
 }
 
@@ -190,7 +195,7 @@ color: var(--hl-link-color);
   color: var(--secondary-font-color);
   height: 120px; 
   margin-left: 65px;
-  margin-top: 575px;
+  margin-top: 650px;
   position: fixed;
 }
 
@@ -577,7 +582,30 @@ p {
   color: var(--secondary-font-color);
 }
 
-/* Media Query for mobile phones */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header h1 {
+    /* this will be applied on any screen smaller than 980px */
+    color: tomato;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header h1 {
+    /* this will be applied on any screen between 768px and 575px */
+    color: tomato;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header h1 {
+    /* this will be applied on any screen smaller than 575px */
+    color: tomato;  
+  }
+}
+
 
  
 
