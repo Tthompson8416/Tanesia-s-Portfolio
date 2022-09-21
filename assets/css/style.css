@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  width: 1200px;
+  width: 1150px;
 }
 
 :root {
@@ -136,7 +136,8 @@ body {
   font-family: var(--font-robo);
   font-size: 18px;
   font-weight: lighter;
-  margin: 20px 1150px 30px 475px;
+  margin: 20px 1150px 30px 700px;
+  width: 500px;
 }
 
 .btn a {
@@ -255,18 +256,14 @@ h3:after {
   margin: 200px 200px;
   padding-left: 50px;
   font-family: var(--main-font);
-
-}
-
-#about-me {
-  margin-left: 360px;
+  margin-left: 590px;
 }
 
 .about-me p {
   padding-top: 50px;
   font-size: 22px;
-  margin-right: 100px;
-  padding-left: 60px;
+  margin-left: 80px;
+  width: 900px;
 }
 
 /* Portfolio Section */
@@ -582,29 +579,26 @@ p {
   color: var(--secondary-font-color);
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
-  header h1 {
-    /* this will be applied on any screen smaller than 980px */
+@media only screen and (max-width: 980px) {
+  .name h1 {
     color: tomato;
   }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-  header h1 {
-    /* this will be applied on any screen between 768px and 575px */
-    color: tomato;
+@media only screen and (max-width: 768px) {
+  .name h1 {
+    color: blue;
   }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-  header h1 {
-    /* this will be applied on any screen smaller than 575px */
-    color: tomato;  
+@media only screen and (max-width: 575px) {
+  .name h1 {
+    color: yellow;
   }
 }
+
+
+
 
 
  
