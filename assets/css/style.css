@@ -540,12 +540,15 @@ background-size: cover;
   line-height: 3;
   font-size: 25px;
   font-family: var(--font-robo);
+  color: var(--main-font-color);
+  text-decoration: underline 1.5px;
   margin-left: 100px;
 }
 
 p {
   font-size: 25px;
   font-family: var(--font-robo);
+  color: var(--main-font-color);
   margin-left: 100px;
 }
 
@@ -563,6 +566,7 @@ p {
   font-size: 25px;
   margin-left: 100px;
   font-family: var(--font-robo);
+  color: var(--main-font-color);
 }
 
 /* Footer */
@@ -653,14 +657,14 @@ p {
     text-align: center;
   }
 
+  #portfolio {
+    margin-left: 55px;
+  }
+
   .portfolio h3 {
     margin-top: -75px;
     margin-left: -35px;
     font-size: 25px;
-  }
-
-  #portfolio {
-    margin-left: 55px;
   }
 
   .portfolio h3::before {
@@ -683,7 +687,7 @@ p {
 
   .img__wrap .project-title {
     font-size: 22px;
-    margin-left: -400px;
+    margin-left: -380px;
     margin-top: -40px;
   }
 
@@ -695,6 +699,101 @@ p {
 
   .project-description p {
     margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .img__wrap2 {
+    margin-left: 200px;
+    margin-top: 350px;
+  }
+
+  .img__wrap2 .project-title-2 {
+    font-size: 22px;
+    margin-left: 4050px;
+    margin-top: -40px;
+  }
+
+  .project-description-2 {
+    width: 500px;
+    margin-top: 350px;
+    margin-left: 1300px;
+  }
+
+  .project-description-2 p {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .img__wrap3 {
+    margin-left: 200px;
+    margin-top: 350px;
+  }
+
+  .img__wrap3 .project-title-3 {
+    font-size: 22px;
+    margin-left: 1px;
+    margin-top: -40px;
+  }
+
+  .project-description-3 {
+    width: 500px;
+    margin-top: 350px;
+    margin-left: 5px;
+  }
+
+  .project-description-3 p {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .img__wrap4 {
+    margin-left: 200px;
+    margin-top: 350px;
+  }
+
+  .img__wrap4 .project-title-4 {
+    font-size: 22px;
+    margin-left: 2375px;
+    margin-top: -40px;
+  }
+
+  .project-description-4 {
+    width: 500px;
+    margin-top: 350px;
+    margin-left: 1330px;
+  }
+
+  .project-description-4 p {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  #contact {
+  margin-left: 27px;
+  }
+
+  .contact h3 {
+    margin-top: 50px;
+    margin-left: -35px;
+    font-size: 25px;
+  }
+
+  .contact h3::before {
+    margin-right: 0%;
+    width: 80px; 
+  }
+
+  .contact h3::after {
+    margin-right: -40%;
+    width: 80px;
+  }
+
+  .contact a {
+    margin-left: 30px;
+  }
+
+  .contact p {
+    margin-left: 130px;
   }
 }
 
