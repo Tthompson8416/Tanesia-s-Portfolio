@@ -37,7 +37,7 @@ body {
   justify-content: flex-end;
   font-family: var(--font-robo);
   margin-top: 20px;
-  margin-left: 1800px;
+  margin-left: 1350px;
   width: max-content;
 }
   
@@ -92,7 +92,7 @@ body {
 .name {
     display: block;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 350px;
     margin-top: 100px;
     width: 1200px;
 }
@@ -115,19 +115,16 @@ body {
   font-family: var(--font-title);
   font-size: 50px;
   font-weight: 500;
-  margin-left: 220px;
+  margin-left: 210px;
 }
 
-.objective {
-  width: 800px;
-}
 
 .objective p {
   color: var(--main-font-color);
-  margin: 5px 750px 30px 700px;
+  margin: 5px 750px 30px 560px;
   font-family: var(--main-font);
   font-size: 22px;
-  width: 800px;
+  width: 600px;
 }
 
 .btn {
@@ -136,7 +133,7 @@ body {
   font-family: var(--font-robo);
   font-size: 18px;
   font-weight: lighter;
-  margin: 20px 1150px 30px 700px;
+  margin: 5px 1150px 30px 570px;
   width: 500px;
 }
 
@@ -185,18 +182,18 @@ color: var(--hl-link-color);
 .v1 {
   border-left: 1px solid;
   color: var(--secondary-font-color);
-  height: 120px; 
+  height: 100px; 
   margin-left: 65px;
-  margin-top: 270px;
+  margin-top: 320px;
   position: fixed;
 }
 
 .v2 {
   border-left: 1px solid;
   color: var(--secondary-font-color);
-  height: 120px; 
+  height: 100px; 
   margin-left: 65px;
-  margin-top: 650px;
+  margin-top: 625px;
   position: fixed;
 }
 
@@ -585,6 +582,8 @@ p {
   color: var(--secondary-font-color);
 }
 
+
+
 @media only screen and (max-width: 980px) {
   
   .header ul {
@@ -798,8 +797,69 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .header ul {
+   margin-left: 10px;
+  }
+
+  .header a {
+    font-size: 13px;
+  }
+
+  .name {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: -70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
   .name h1 {
     color: blue;
+    font-size: 30px;
+  }
+
+  .name h2 {
+    line-height: .1;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-left: 90px; 
+  }
+
+  .objective {
+    width: 500px;
+    margin-left: 180px;
+  }
+
+  .objective p {
+    width: 300px;
+    margin-left: -55px;
+    text-align: center;
+    font-size: 17px;
+
+  }
+
+  .btn {
+    width: 300px;
+    margin-left: 200px;
+  }
+
+  .leftside {
+    margin-top: 450px;
+    margin-left: -32px;
+  }
+
+  .v1 {
+    margin-top: 320px;
+    margin-left: 20px;
+    height: 100px;
+  }
+
+  .v2 {
+    margin-top: 640px;
+    margin-left: 20px;
+    height: 100px;
   }
 }
 
@@ -808,6 +868,7 @@ p {
     color: yellow;
   }
 }
+
 
 
 
