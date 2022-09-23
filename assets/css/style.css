@@ -325,6 +325,10 @@ background: url("../images/hero-bg.jpg");
 background-size: cover;
 }
 
+.img__wrap h4 {
+  margin-left: 780px;
+}
+
 .img__wrap2 {
   margin-top: 70px;
   position: relative;
@@ -345,9 +349,7 @@ background-size: cover;
   }
 
 .img__wrap2 h4 {
-  margin-left: 1000px;
-  margin-top: 50px;
-  margin-left: 1600px;
+  margin-left: -440px;
   margin-top: 90px;
  }
 
@@ -387,7 +389,11 @@ background-size: cover;
 .img-tint-4:hover {
   background: url("../images/Sk8Spotter!.png");
   background-size: cover;
-  }
+}
+
+.img__wrap4 h4 {
+  margin-left: -435px;
+}
 
 
 .project-title {
@@ -408,7 +414,7 @@ background-size: cover;
   position: absolute;
   width: 200px;
   margin-top: 150px;
-  margin-right: 2830px; 
+  margin-left: 2830px; 
   padding: 30px;
  }
 
