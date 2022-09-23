@@ -565,7 +565,7 @@ p {
   background-color: var(--main-bg-color);
   font-size: 20px;
   padding-bottom: 75px;
-  margin-left: 450px;
+  margin-left: 410px;
   margin-top: 50px;
   width: 500px;
 }
@@ -579,18 +579,23 @@ p {
 
 /* Footer */
 .footer {
+  width: 800px;
   padding: 7px 0px;
-  margin-bottom: 80px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 60px;
+  margin-left: 1200px;
   display: flex;
   flex-direction: row;
 }
 
-.footer h1 {
+.footer h4 {
   padding: 5px;
-  padding-left: 50px;
-  font-size: 25px;
+  padding-left: 150px;
+  font-family: var(--font-robo);
+  font-size: 20px;
   color: var(--secondary-font-color);
+}
+.footer span {
+  color: var(--hl-link-color);
 }
 
 
