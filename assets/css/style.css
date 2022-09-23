@@ -234,7 +234,7 @@ h3:after {
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 25%;
+  width: 10%;
 }
 
 h3:before {
@@ -253,14 +253,14 @@ h3:after {
   margin: 200px 200px;
   padding-left: 50px;
   font-family: var(--main-font);
-  margin-left: 590px;
+  margin-left: 450px;
 }
 
 .about-me p {
   padding-top: 50px;
   font-size: 22px;
   margin-left: 80px;
-  width: 900px;
+  width: 700px;
 }
 
 /* Portfolio Section */
@@ -271,6 +271,10 @@ h3:after {
 
 .portfolio h1 {
   width: fit-content;
+}
+
+.portfolio h3 {
+  margin-left: -140px;
 }
 
 .portfolio p {
@@ -304,6 +308,7 @@ h3:after {
 
 .img__wrap {
   margin-top: 70px;
+  margin-left: 185px;
   position: relative;
   width: 45%;
 }
@@ -323,7 +328,7 @@ background-size: cover;
 .img__wrap2 {
   margin-top: 70px;
   position: relative;
-  margin-left: 865px;
+  margin-left: 620px;
   width: 45%;
 }
 
@@ -348,6 +353,7 @@ background-size: cover;
 
 .img__wrap3 {
   margin-top: 70px;
+  margin-left: 190px;
   position: relative;
   width: 45%;
 }
@@ -367,7 +373,7 @@ background-size: cover;
 .img__wrap4 {
   margin-top: 70px;
   position: relative;
-  margin-left: 865px;
+  margin-left: 620px;
   width: 45%;
 }
 
@@ -387,42 +393,43 @@ background-size: cover;
 .project-title {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
   width: 200px;
-  margin-top: 90px;
-  margin-left: 2000px;
+  margin-top: 120px;
+  margin-left: 1200px;
 }
 
 
 .project-title-2 {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
   width: 200px;
-  margin-top: 120px;
-  margin-right: 3650px; 
+  margin-top: 150px;
+  margin-right: 2830px; 
+  padding: 30px;
  }
 
  .project-title-3 {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
   width: 220px;
-  margin-top: 120px;
-  margin-left: 1150px;
+  margin-top: 150px;
+  margin-left: 745px;
  }
 
  .project-title-4 {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
   width: 200px;
-  margin-right: 2000px;
-  margin-top: 120px;
+  margin-right: 1200px;
+  margin-top: 150px;
  }
 
 .project-description {
@@ -432,9 +439,9 @@ background-size: cover;
   padding: 15px;
   border-radius: 5px;
   background-color: var(--pjd-color);
-  margin-left: 1350px;
+  margin-left: 900px;
   margin-top: 150px;
-  width: 900px;
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -444,6 +451,7 @@ background-size: cover;
   font-size: 20px;
   background-color: var(--pjd-color);
   padding-top: 15px;
+  margin: 5px;
 }
 
 .project-description-2 {
@@ -453,9 +461,9 @@ background-size: cover;
   padding: 15px;
   border-radius: 5px;
   background-color: var(--pjd-color);
-  margin-right: 1300px;
+  margin-right: 900px;
   margin-top: 150px;
-  width: 900px;
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -465,6 +473,7 @@ background-size: cover;
   font-size: 20px;
   background-color: var(--pjd-color);
   padding-top: 15px;
+  margin: 5px;
 }
 
 .project-description-3 {
@@ -474,9 +483,9 @@ background-size: cover;
   padding: 15px;
   border-radius: 5px;
   background-color: var(--pjd-color);
-  margin-left: 1350px;
-  margin-top: 150px;
-  width: 900px;
+  margin-left: 900px;
+  margin-top: 180px;
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -486,6 +495,7 @@ background-size: cover;
   font-size: 20px;
   background-color: var(--pjd-color);
   padding-top: 15px;
+  margin: 5px;
 }
 
 .project-description-4 {
@@ -495,9 +505,9 @@ background-size: cover;
   padding: 15px;
   border-radius: 5px;
   background-color: var(--pjd-color);
-  margin-right: 1330px;
-  margin-top: 150px;
-  width: 900px;
+  margin-right: 900px;
+  margin-top: 180px;
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -507,6 +517,7 @@ background-size: cover;
   font-size: 20px;
   background-color: var(--pjd-color);
   padding-top: 15px;
+  margin: 5px;
 }
 
 /* Subtitle Text */
@@ -528,7 +539,7 @@ background-size: cover;
 .contact {
   font-size: 20px;
   color: var(--secondary-font-color);
-  margin-left: 890px;
+  margin-left: 450px;
   width: 1500px;
 
 }
@@ -539,14 +550,14 @@ background-size: cover;
   font-family: var(--font-robo);
   color: var(--main-font-color);
   text-decoration: underline 1.5px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 p {
   font-size: 25px;
   font-family: var(--font-robo);
   color: var(--main-font-color);
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 /* Resume Section */
@@ -554,14 +565,14 @@ p {
   background-color: var(--main-bg-color);
   font-size: 20px;
   padding-bottom: 75px;
-  margin-left: 890px;
+  margin-left: 450px;
   margin-top: 50px;
   width: 500px;
 }
 
 .resume a {
   font-size: 25px;
-  margin-left: 100px;
+  margin-left: 190px;
   font-family: var(--font-robo);
   color: var(--main-font-color);
 }
