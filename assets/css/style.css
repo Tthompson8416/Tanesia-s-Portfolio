@@ -609,12 +609,14 @@ p {
 @media only screen and (max-width: 980px) {
   
   .header ul {
-    margin-left: 35px;
+    margin-left: 350px;
   }
 
+  
+
   .name {
-    width: 500px;
-    margin-left: 50px;
+    width: 700px;
+    margin-left: 70px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -632,32 +634,32 @@ p {
     line-height: 1;
     margin-bottom: 50px;
     font-size: 50px;
-    margin-left: 90px; 
+    margin-left: 0px; 
   }
 
   .objective {
     width: 500px;
-    margin-left: 180px;
+    margin-left: 280px;
   }
 
   .objective p {
-    width: 400px;
-    margin-left: -55px;
-    text-align: center;
-
+    width: 500px;
+    margin-left: -70px;
+    margin-top: -50px;
+    font-size: 20px;
   }
 
   .btn {
     width: 300px;
-    margin-left: 200px;
+    margin-left: 215px;
   }
 
   .about-me {
-    margin-left: 50px;
+    margin-left: 150px;
   }
 
   .about-me h3 {
-    margin-left: -55px;
+    margin-left: -35px;
     font-size: 25px;
   }
 
@@ -672,8 +674,8 @@ p {
   }
 
   .about-me p {
-    width: 400px;
-    margin-left: 40px;
+    width: 700px;
+    margin-left: -100px;
     font-size: 20px;
     text-align: center;
   }
