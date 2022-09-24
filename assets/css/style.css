@@ -694,7 +694,7 @@ p {
 
   .img__wrap .project-title {
     font-size: 22px;
-    margin-left: -380px;
+    margin-left: -10px;
     margin-top: -40px;
   }
 
@@ -716,8 +716,9 @@ p {
 
   .img__wrap2 .project-title-2 {
     font-size: 22px;
-    margin-left: 4050px;
+    margin-left: -10px;
     margin-top: -40px;
+    padding: 1px;
   }
 
   .project-description-2 {
@@ -732,7 +733,7 @@ p {
   }
 
   .img__wrap3 {
-    margin-left: 200px;
+    margin-left: 335px;
     margin-top: 350px;
   }
 
@@ -754,20 +755,20 @@ p {
   }
 
   .img__wrap4 {
-    margin-left: 200px;
+    margin-left: 335px;
     margin-top: 350px;
   }
 
   .img__wrap4 .project-title-4 {
     font-size: 22px;
-    margin-left: 2375px;
+    margin-left: -10px;
     margin-top: -40px;
   }
 
   .project-description-4 {
     width: 500px;
     margin-top: 350px;
-    margin-left: 1330px;
+    margin-left: 895px;
   }
 
   .project-description-4 p {
