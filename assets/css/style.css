@@ -9,12 +9,12 @@ body {
 :root {
   --main-bg-color: #28282b;
   --main-font-color: rgb(168, 178, 209);
-  --secondary-font-color: whitesmoke; 
+  --secondary-font-color: whitesmoke;
   --hl-link-color: rgb(46, 202, 202);
   --pjd-color: rgb(39, 39, 42);
-  --main-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  --font-robo:'Montserrat', sans-serif;
-  --font-title: 'Julius Sans One', sans-serif;
+  --main-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  --font-robo: "Montserrat", sans-serif;
+  --font-title: "Julius Sans One", sans-serif;
 }
 
 /* Variables */
@@ -40,7 +40,6 @@ body {
   margin-left: 1350px;
   width: max-content;
 }
-  
 
 .header div ul li {
   display: inline-block;
@@ -54,7 +53,7 @@ body {
   color: var(--secondary-font-color);
   margin-left: 5px;
   margin-right: 15px;
-  padding: 10px;  
+  padding: 10px;
   font-size: 18px;
   text-decoration: none;
 }
@@ -73,7 +72,7 @@ body {
 }
 
 .resume-nav:hover {
-  background-color: rgba(46, 202, 202, .1);
+  background-color: rgba(46, 202, 202, 0.1);
 }
 
 /* Hero Style Start */
@@ -90,11 +89,11 @@ body {
 }
 
 .name {
-    display: block;
-    justify-content: center;
-    margin-left: 350px;
-    margin-top: 100px;
-    width: 1200px;
+  display: block;
+  justify-content: center;
+  margin-left: 350px;
+  margin-top: 100px;
+  width: 1200px;
 }
 
 /* Styling the header h1 */
@@ -107,7 +106,6 @@ body {
   box-sizing: inherit;
   margin-bottom: 120px;
   margin-left: 200px;
-
 }
 
 .name h2 {
@@ -117,7 +115,6 @@ body {
   font-weight: 500;
   margin-left: 210px;
 }
-
 
 .objective p {
   color: var(--main-font-color);
@@ -138,14 +135,14 @@ body {
 }
 
 .btn a {
-color: var(--hl-link-color);
-border: 1px solid rgb(46, 202, 202);
-border-radius: 4px;
-padding: 15px;
+  color: var(--hl-link-color);
+  border: 1px solid rgb(46, 202, 202);
+  border-radius: 4px;
+  padding: 15px;
 }
 
 .btn a:hover {
-  background-color: rgba(46, 202, 202, .1);
+  background-color: rgba(46, 202, 202, 0.1);
   color: var(--hl-link-color);
   text-decoration: none;
 }
@@ -168,11 +165,11 @@ padding: 15px;
 }
 
 .leftside a {
-color: var(--hl-link-color);
+  color: var(--hl-link-color);
 }
 
 .leftside li {
- margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .leftside a:hover {
@@ -182,7 +179,7 @@ color: var(--hl-link-color);
 .v1 {
   border-left: 1px solid;
   color: var(--secondary-font-color);
-  height: 100px; 
+  height: 100px;
   margin-left: 65px;
   margin-top: 320px;
   position: fixed;
@@ -191,7 +188,7 @@ color: var(--hl-link-color);
 .v2 {
   border-left: 1px solid;
   color: var(--secondary-font-color);
-  height: 100px; 
+  height: 100px;
   margin-left: 65px;
   margin-top: 625px;
   position: fixed;
@@ -309,8 +306,8 @@ h3:after {
 }
 
 .img-tint-1:hover {
-background: url("../images/hero-bg.jpg");
-background-size: cover;
+  background: url("../images/hero-bg.jpg");
+  background-size: cover;
 }
 
 .img__wrap h4 {
@@ -334,12 +331,12 @@ background-size: cover;
 .img-tint-2:hover {
   background: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
-  }
+}
 
 .img__wrap2 h4 {
   margin-left: -440px;
   margin-top: 90px;
- }
+}
 
 .img__wrap3 {
   margin-top: 70px;
@@ -358,7 +355,7 @@ background-size: cover;
 .img-tint-3:hover {
   background: url("../images/Fridge-to-Feast-Pic.png");
   background-size: cover;
-  }
+}
 
 .img__wrap4 {
   margin-top: 70px;
@@ -383,7 +380,6 @@ background-size: cover;
   margin-left: -435px;
 }
 
-
 .project-title {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
@@ -394,7 +390,6 @@ background-size: cover;
   margin-left: 1200px;
 }
 
-
 .project-title-2 {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
@@ -402,11 +397,11 @@ background-size: cover;
   position: absolute;
   width: 200px;
   margin-top: 150px;
-  margin-left: 2830px; 
+  margin-left: 2830px;
   padding: 30px;
- }
+}
 
- .project-title-3 {
+.project-title-3 {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
   font-size: 22px;
@@ -414,9 +409,9 @@ background-size: cover;
   width: 220px;
   margin-top: 150px;
   margin-left: 745px;
- }
+}
 
- .project-title-4 {
+.project-title-4 {
   font-family: var(--font-title);
   color: var(--secondary-font-color);
   font-size: 22px;
@@ -424,7 +419,7 @@ background-size: cover;
   width: 200px;
   margin-right: 1200px;
   margin-top: 150px;
- }
+}
 
 .project-description {
   box-shadow: 0 12px 30px -15px var(--hl-link-color);
@@ -528,14 +523,12 @@ background-size: cover;
   font-size: 72px;
 }
 
-
 /* Contact Me Section */
 .contact {
   font-size: 20px;
   color: var(--secondary-font-color);
   margin-left: 450px;
   width: 1500px;
-
 }
 
 .contact a {
@@ -592,10 +585,7 @@ p {
   color: var(--hl-link-color);
 }
 
-
-
 @media only screen and (max-width: 980px) {
- 
   .header ul {
     margin-left: 15px;
   }
@@ -638,7 +628,7 @@ p {
 
   .name h1 {
     color: tomato;
-    line-height: .3;
+    line-height: 0.3;
     margin-bottom: 50px;
     font-size: 30px;
     margin-left: -330px;
@@ -649,10 +639,10 @@ p {
   }
 
   .name h2 {
-    line-height: .5;
+    line-height: 0.5;
     margin-bottom: 50px;
     font-size: 30px;
-    margin-left: -385px; 
+    margin-left: -385px;
   }
 
   .objective {
@@ -669,23 +659,25 @@ p {
 
   .btn {
     width: 300px;
+    margin-top: -15px;
     margin-left: 65px;
     font-size: 10px;
   }
 
   .about-me {
-    margin-left: 150px;
+    margin-left: -90px;
+    margin-top: 100px;
   }
 
   .about-me h3 {
     margin-left: -35px;
-    font-size: 25px;
+    font-size: 17px;
   }
 
   .about-me h3::before {
     margin-right: 0%;
     width: 80px;
-  } 
+  }
 
   .about-me h3::after {
     margin-right: -40%;
@@ -693,10 +685,11 @@ p {
   }
 
   .about-me p {
-    width: 700px;
-    margin-left: -100px;
-    font-size: 20px;
+    width: 350px;
+    margin-left: 80px;
+    font-size: 15px;
     text-align: center;
+    margin-top: -30px;
   }
 
   #portfolio {
@@ -704,14 +697,14 @@ p {
   }
 
   .portfolio h3 {
-    margin-top: -75px;
-    margin-left: 90px;
-    font-size: 25px;
+    margin-top: -170px;
+    margin-left: -145px;
+    font-size: 17px;
   }
 
   .portfolio h3::before {
     margin-right: 0%;
-    width: 80px; 
+    width: 80px;
   }
 
   .portfolio h3::after {
@@ -724,15 +717,22 @@ p {
   }
 
   .img__wrap .project-title {
-    font-size: 22px;
-    margin-left: -10px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-left: -450px;
+    margin-top: -25px;
+  }
+
+  .img-tint-1 {
+    width: 375px;
+    margin-left: -415px;
+    height: 250px;
   }
 
   .project-description {
-    width: 500px;
-    margin-top: 350px;
-    margin-left: 1px;
+    width: 350px;
+    margin-top: 230px;
+    margin-left: -455px;
+    padding: 1px;
   }
 
   .project-description p {
@@ -746,16 +746,23 @@ p {
   }
 
   .img__wrap2 .project-title-2 {
-    font-size: 22px;
-    margin-left: -10px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-left: -450px;
+    margin-top: -25px;
     padding: 1px;
   }
 
+  .img-tint-2 {
+    width: 375px;
+    margin-left: -415px;
+    height: 250px;
+  }
+
   .project-description-2 {
-    width: 500px;
-    margin-top: 350px;
-    margin-left: 895px;
+    width: 350px;
+    margin-top: 230px;
+    margin-left: 440px;
+    padding: 1px;
   }
 
   .project-description-2 p {
@@ -769,15 +776,22 @@ p {
   }
 
   .img__wrap3 .project-title-3 {
-    font-size: 22px;
-    margin-left: 1px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-left: -450px;
+    margin-top: -25px;
+  }
+
+  .img-tint-3 {
+    width: 375px;
+    margin-left: -415px;
+    height: 250px;
   }
 
   .project-description-3 {
-    width: 500px;
-    margin-top: 350px;
-    margin-left: 5px;
+    width: 350px;
+    margin-top: 230px;
+    margin-left: -455px;
+    padding: 1px;
   }
 
   .project-description-3 p {
@@ -791,15 +805,23 @@ p {
   }
 
   .img__wrap4 .project-title-4 {
-    font-size: 22px;
-    margin-left: -10px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-left: -450px;
+    margin-top: -25px;
+  }
+
+  .img-tint-4 {
+    width: 375px;
+    margin-left: -415px;
+    height: 250px;
   }
 
   .project-description-4 {
-    width: 500px;
-    margin-top: 350px;
-    margin-left: 895px;
+    width: 350px;
+    margin-top: 230px;
+    margin-left: 440px;
+    padding: 1px;
+}
   }
 
   .project-description-4 p {
@@ -808,7 +830,7 @@ p {
   }
 
   #contact {
-  margin-left: -20px;
+    margin-left: -20px;
   }
 
   .contact h3 {
@@ -819,7 +841,7 @@ p {
 
   .contact h3::before {
     margin-right: 0%;
-    width: 80px; 
+    width: 80px;
   }
 
   .contact h3::after {
@@ -839,16 +861,15 @@ p {
     margin-left: -90px;
   }
 
-  .footer{
+  .footer {
     margin-left: -55px;
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-
   .header ul {
-   margin-left: 10px;
+    margin-left: 10px;
   }
 
   .header a {
@@ -863,17 +884,17 @@ p {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .name h1 {
     color: blue;
     font-size: 30px;
   }
 
   .name h2 {
-    line-height: .1;
+    line-height: 0.1;
     margin-bottom: 50px;
     font-size: 25px;
-    margin-left: 90px; 
+    margin-left: 90px;
   }
 
   .objective {
@@ -886,7 +907,6 @@ p {
     margin-left: -55px;
     text-align: center;
     font-size: 17px;
-
   }
 
   .btn {
@@ -917,14 +937,3 @@ p {
     color: yellow;
   }
 }
-
-
-
-
-
-
- 
-
-
-
-
