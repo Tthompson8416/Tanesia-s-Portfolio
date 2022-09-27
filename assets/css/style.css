@@ -874,17 +874,17 @@ p {
 
 @media only screen and (max-width: 768px) {
   .header ul {
-    margin-left: 10px;
+    margin-left: 130px;
   }
 
   .header a {
-    font-size: 13px;
+    font-size: 25px;
   }
 
   .name {
     width: 500px;
     margin-top: 20px;
-    margin-left: -70px;
+    margin-left: 180px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -899,41 +899,62 @@ p {
     line-height: 0.1;
     margin-bottom: 50px;
     font-size: 25px;
-    margin-left: 90px;
+    margin-left: -350px;
   }
 
   .objective {
     width: 500px;
-    margin-left: 180px;
+    margin-left: 190px;
   }
 
   .objective p {
-    width: 300px;
+    width: 500px;
     margin-left: -55px;
-    text-align: center;
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .btn {
     width: 300px;
-    margin-left: 200px;
+    margin-left: 140px;
   }
 
   .leftside {
     margin-top: 450px;
-    margin-left: -32px;
+    margin-left: -20px;
   }
 
   .v1 {
-    margin-top: 320px;
-    margin-left: 20px;
+    margin-top: 130px;
+    margin-left: 30px;
+    height: 80px;
+}
+  
+
+  .v2 {
+    margin-top: 380px;
+    margin-left: 30px;
     height: 100px;
   }
 
-  .v2 {
-    margin-top: 640px;
-    margin-left: 20px;
-    height: 100px;
+  .about-me {
+    margin-left: 130px;
+  }
+
+  #portfolio {
+    margin-left: 270px;
+    margin-top: 300px;
+  }
+  
+  #contact {
+    margin-left: 150px;
+  }
+
+  .resume {
+    margin-left: 80px;
+  }
+
+  .footer {
+    margin-left: 125px;
   }
 }
 
