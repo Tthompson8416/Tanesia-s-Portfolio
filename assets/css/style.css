@@ -527,7 +527,7 @@ h3:after {
 .contact {
   font-size: 20px;
   color: var(--secondary-font-color);
-  margin-left: 450px;
+  margin-left: 700px;
   width: 1500px;
 }
 
@@ -829,9 +829,6 @@ p {
     font-size: 15px;
   }
 
-  /* #contact {
-    margin-left: -20px;
-  } */
 
   .contact h3 {
     margin-top: 50px;
