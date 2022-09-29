@@ -960,7 +960,7 @@ p {
 
 @media only screen and (max-width: 575px) {
   .name h1 {
-    color: purple;
+    color: yellow;
   }
 }
 
