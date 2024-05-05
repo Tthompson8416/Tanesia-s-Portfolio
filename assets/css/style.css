@@ -195,7 +195,7 @@ body {
 }
 
 body {
-  background-color: yellow;
+  background-color: var(--main-bg-color);
 }
 
 .background {
