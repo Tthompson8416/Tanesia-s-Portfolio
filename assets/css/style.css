@@ -891,7 +891,7 @@ p {
   }
 
   .name h1 {
-    color: blue;
+    color: var(--secondary-font-color);
     font-size: 30px;
   }
 
@@ -960,7 +960,7 @@ p {
 
 @media only screen and (max-width: 575px) {
   .name h1 {
-    color: yellow;
+    color: var(--secondary-font-color);
   }
 }
 
